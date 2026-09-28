@@ -1,0 +1,9 @@
+import Image from "next/image";
+import Link from "next/link";
+import PageShell from "@/components/PageShell";
+export default function Kingfall(){return <PageShell>
+<section className="kingfall-hero"><Image src="/images/kingfall-keyart.jpg" alt="Aeridane Kingfall fantasy kingdom" fill priority className="cover-image" sizes="100vw"/><div className="kingfall-hero-shade"/><div className="kingfall-hero-copy"><p className="eyebrow">A NIDHOGG WORKS GAME</p><h1>AERIDANE:<span>KINGFALL</span></h1><p>Build a House. Raise an army. Shape a world.</p><span className="status">IN DEVELOPMENT · PC</span></div></section>
+<section className="section kingfall-intro"><div><p className="eyebrow">THE WORLD IS YOURS TO CHANGE</p><h2>From adventurer to power.</h2></div><div><p>Aeridane: Kingfall combines third-person open-world role-playing with grand strategy. Begin as an adventurer, establish your own House, build your holdings, recruit soldiers, and step onto the strategic map to command the wars that reshape Aeridane.</p><div className="project-tags-v3"><span>OPEN-WORLD RPG</span><span>GRAND STRATEGY</span><span>HOUSE BUILDING</span><span>ARMY COMMAND</span><span>SINGLE PLAYER</span></div></div></section>
+<section className="section feature-grid"><article><b>01</b><h3>Live in the World</h3><p>Explore Aeridane in third person, meet its people, fight in person and build your reputation.</p></article><article><b>02</b><h3>Build Your House</h3><p>Create your own House, establish a settlement, recruit followers and grow from obscurity into a regional power.</p></article><article><b>03</b><h3>Command the Map</h3><p>Move armies, manage territory, engage in diplomacy and join the battles you order from the strategic layer.</p></article></section>
+<section className="kingfall-cta"><p className="eyebrow">DEVELOPMENT HAS BEGUN</p><h2>Follow the making of Kingfall.</h2><Link href="/devlog" className="button button-primary">Read the Devlog →</Link></section>
+</PageShell>}
