@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="site-footer"><div><strong>NIDHOGG WORKS</strong><p>Independent Game & Software Development</p></div><p>© {new Date().getFullYear()} Nidhogg Works. All rights reserved.</p></footer>}

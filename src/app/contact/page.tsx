@@ -1,0 +1,1 @@
+import PageShell from "@/components/PageShell"; export default function Page(){return <PageShell><section className="page-hero"><p className="eyebrow">CONTACT</p><h1>Speak With the Forge</h1><p>Contact information and business inquiries will be available here soon.</p></section></PageShell>}
